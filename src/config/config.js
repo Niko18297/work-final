@@ -1,3 +1,5 @@
+require('pg')
+require('pg-hstore')
 require('dotenv').config();
 
 module.exports = {
